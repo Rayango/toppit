@@ -17,7 +17,7 @@ class UtilsBar extends React.Component {
 
   sortTopicListByUpvotes(searchedTopicList) {
     return searchedTopicList.sort(function(a, b) {
-      return a.upvotes - b.upvotes;
+      return b.upvotes - a.upvotes;
     });
   }
 

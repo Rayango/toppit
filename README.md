@@ -1,12 +1,12 @@
 # Toppit
 
-> Toppit gives everyone a voice. With toppit users can post topics and get feedback from their community through upvotes and other users' comments. Toppit can be used within organizations to get a real-time feed of the voice of the employees or just as a distributed ideation tool.
-
 Key Features:
   - Upvote/Downvote a topic
   - Add comments to a topic
   - Share topics with other uses
   - Create topics arounds themes
+  - Crate subtopic
+  - Chat with other users in real-time
 
 ## Team
 
@@ -16,45 +16,22 @@ Key Features:
   - Jarrod Powell
   - Michael Sutherland
 
-## Table of Contents
+  Legacy team:
 
-1. [Usage](#Usage)
-1. [Requirements](#requirements)
-1. [Development](#development)
-    1. [Installing Dependencies](#installing-dependencies)
-    1. [Tasks](#tasks)
-1. [Roadmap](#roadmap)
-1. [Contributing](#contributing)
+  - Albert Chang
+  - Kaitlyn Menghini
+  - Matt Upham
+  - Ryan Ngo
+  - Shubhra Jain
 
-## Usage
+## Technologies
 
-> Some usage instructions
+React Redux, Express, Node.js, MongoDB, Socket.io
 
-## Requirements
-
-- Node 6.4.x
-- Redis 2.6.x
-- Postgresql 9.1.x
-- etc
-- etc
-
-## Development
-
-### Installing Dependencies
+## Installing Dependencies
 
 From within the root directory:
 
 ```sh
-npm install -g bower
 npm install
-bower install
 ```
-
-### Roadmap
-
-View the project roadmap [here](LINK_TO_DOC)
-
-
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for contribution guidelines.
